@@ -1,3 +1,0 @@
-function ucFirst(str) {
-  // ваш код...
-}
