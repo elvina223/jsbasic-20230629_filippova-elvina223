@@ -1,6 +1,8 @@
-function ucFirst(str) {
-  if(str==='' && str.length>='1') return str;
-  
+
+   function ucFirst(str) {
+    if(str=='') return'';
    return str[0].toUpperCase() + str.slice(1);
-  }
- console.log (ucFirst('' ));
+   if(str.length>='1') return str;
+   
+    }
+   console.log (ucFirst(''));
