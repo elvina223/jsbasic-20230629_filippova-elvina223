@@ -9,10 +9,7 @@ function print(text) {
  * Эту функцию нужно поменять так,
  * чтобы функция sayHello работала корректно
  */
-function isValid(name) {
-  /*if(name!=''&& name!=' '&&name.lenght>='4')
-  return true;
-  return false; первый вариант*/
+
     function isValid(name) {
     if(name!='' && !name.includes(' ') && name.length>='4')
     return true ;
