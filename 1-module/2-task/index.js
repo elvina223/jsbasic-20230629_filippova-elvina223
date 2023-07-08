@@ -15,11 +15,9 @@ function print(text) {
     return true ;
     return false;
      }
-   console.log (isValid(' '));
+   console.log (isValid(''));
  
- 
-  // ваш код...
-}
+
 
 function sayHello() {
   let userName = prompt('Введите ваше имя');
