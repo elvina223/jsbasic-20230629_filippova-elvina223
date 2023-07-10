@@ -1,3 +1,0 @@
-function isEmpty(obj) {
-  // ваш код...
-}
