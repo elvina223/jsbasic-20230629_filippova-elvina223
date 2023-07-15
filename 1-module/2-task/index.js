@@ -11,10 +11,10 @@ function print(text) {
  */
 
 function isValid(name) {
-  return (name != '' && !(name.includes(' ')>=0)
-  && name.length >= '4');
-
-}
+  if(name!= null && name != '' && !name.includes(' ') && name.length >= '4')
+    return true;
+    return false
+  }
   console.log( isValid('') );
 
 function sayHello() {
